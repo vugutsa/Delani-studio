@@ -1,0 +1,17 @@
+/* .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200%;
+} */
+.banner {
+    position: absolute;
+    top: 30%;
+}
+.header {
+    color: beige;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+   margin-top: 50%;
+}
