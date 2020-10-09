@@ -1,13 +1,14 @@
 $(document).ready(function() {
     $("#one").click(function(){
-        $("p").toggle();
+        $(".par4").toggle();
     });
 
    $("#two").click(function(){
-       $("p").toggle();
+       $(".par5").toggle();
 
    });
    $("#three").click(function(){
-       $("p").toggle();
+       $(".par6").toggle();
    });
 });
+
