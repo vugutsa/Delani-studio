@@ -11,81 +11,98 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  $(".row").hover(
-    function () {
-      $(this).find("#work1").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work1").stop();
-    }
-  );
+$(document).ready(function(){
+  $("#work4").mouseover(function(){
+    $("#four").show();
 
-$(".row").hover(
-    function () {
-      $(this).find("#work2").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work2").stop();
-    }
-  );
+  })
+  .mouseout(function(){
+    $("#four").hide();
+  })
+  
+  $("#work3").mouseover(function(){
+    $("#security").show();
 
-  $(".row").hover(
-    function () {
-      $(this).find("#work3").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work3").stop();
-    }
-  );
+  })
+  .mouseout(function(){
+    $("#security").hide();
+  })
+  
+  $("#work2").mouseover(function(){
+    $("#empower").show();
 
-  $(".row").hover(
-    function () {
-      $(this).find("#work4").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work4").stop();
-    }
-  );
+  })
+  .mouseout(function(){
+    $("#empower").hide();
+  })
 
-  $(".row").hover(
-    function () {
-      $(this).find("#work5").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work5").stop();
-    }
-  );
 
-  $(".row").hover(
-    function () {
-      $(this).find("#work6").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work6").stop();
-    }
-  );
+  
+  $("#work1").mouseover(function(){
+    $("#curry").show();
 
-  $(".row").hover(
-    function () {
-      $(this).find("#work7").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work7").stop();
-    }
-  );
+  })
+  .mouseout(function(){
+    $("#curry").hide();
+  })
 
-  $(".row").hover(
-    function () {
-      $(this).find("#work8").stop().animate({ opacity: "0.4" });
-    },
-    function () {
-      $(this).find("#work8").stop();
-    }
-  );
+  $("#work5").mouseover(function(){
+    $("#website").show();
+
+  })
+  .mouseout(function(){
+    $("#website").hide();
+  })
+
+
+  $("#work6").mouseover(function(){
+    $("#calcu").show();
+
+  })
+  .mouseout(function(){
+    $("#calcu").hide();
+  })
+
+
+  $("#work7").mouseover(function(){
+    $("#bun").show();
+
+  })
+  .mouseout(function(){
+    $("#bun").hide();
+  })
+
+
+  $("#work8").mouseover(function(){
+    $("#rest").show();
+
+  })
+  .mouseout(function(){
+    $("#rest").hide();
+  })
+
+
 
 
 });
-          
+
+$("button").click(function(){
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var message = document.getElementById("message").value;
+
+if (name==="") {
+  alert("enter your name")
+} else if(email===""){
+  alert("enter email")
+} else if(message===""){
+  alert("enter message")
+}
+else {
+  alert(" Dear " + name + " we have received your message successfully " + " feel free to reach out to us any time. ")
+}
+
+
+});
 
 
