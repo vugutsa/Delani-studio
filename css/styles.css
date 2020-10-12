@@ -7,7 +7,7 @@ body{
     height: 630px;
 } */
 .image {
-    background-image: url("/images/assets/backgrounds/h_img.jpg");
+    background-image: url("../images/assets/backgrounds/h_img.jpg");
     background-size: cover;
     height: 500px;
 }
