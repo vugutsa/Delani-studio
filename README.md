@@ -1,7 +1,7 @@
 # DELANI STUDIO
 
 ## Description
-
+Delani studio is a project whereby a user is able to fill in information and see the kind of services they offer.
 ## Authors
 * Mercy Vugutsa
 ## Set up and installation
