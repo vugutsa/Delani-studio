@@ -42,6 +42,12 @@ body{
 .par2 {
     font-size: 15px;
 }
+#portfolio h7 {
+    font-size: 30px;
+}
+.col-md-4 , .par4 , .par5 , .par6 {
+    font-weight: bold;
+}
 .port {
     text-align: center;
 }
@@ -55,7 +61,7 @@ body{
 .contact {
     background-image: url("../images/assets/backgrounds/c_image.jpg");
     color: white;
-    height: 500px;
+    height: 420px;
 }
 h5 {
     font-weight: bold;
@@ -75,9 +81,8 @@ h5 {
     top: 0.0em;
     display: none;
     color: black;
-    font-size: 20px;
-    padding-top: 30%;
-    border:3px ,solid green;
+    font-size: 25px;
+    padding-top: 20%;
     cursor: pointer;
 }
 #security {
@@ -89,8 +94,8 @@ h5 {
     top: 0.0em;
     display: none;
     color: black;
-    font-size: 20px;
-    padding-top: 30%;
+    font-size: 25px;
+    padding-top: 20%;
     cursor: pointer;
 }
 #empower {
@@ -102,8 +107,8 @@ h5 {
     top: 0.0em;
     display: none;
     color: black;
-    font-size: 20px;
-    padding-top: 30%;
+    font-size: 25px;
+    padding-top: 20%;
     cursor: pointer;
 } 
 #curry {
@@ -115,8 +120,8 @@ h5 {
     top: 0.0em;
     display: none;
     color: black;
-    font-size: 20px;
-    padding-top: 30%;
+    font-size: 25px;
+    padding-top: 20%;
     cursor: pointer;
 }
 #website {
@@ -128,8 +133,8 @@ h5 {
     top: 0.0em;
     display: none;
     color: black;
-    font-size: 20px;
-    padding-top: 30%;
+    font-size: 25px;
+    padding-top: 20%;
     cursor: pointer;
 } 
 #calcu {
@@ -142,7 +147,7 @@ h5 {
     display: none;
     color: black;
     font-size: 20px;
-    padding-top: 30%;
+    padding-top: 20%;
     cursor: pointer;  
 }
 #bun {
@@ -154,8 +159,8 @@ h5 {
     top: 0.0em;
     display: none;
     color: black;
-    font-size: 20px;
-    padding-top: 30%;
+    font-size: 25px;
+    padding-top: 20%;
     cursor: pointer;    
 }
 #rest {
@@ -167,8 +172,8 @@ h5 {
     top: 0.0em;
     display: none;
     color: black;
-    font-size: 20px;
-    padding-top: 30%;
+    font-size: 25px;
+    padding-top: 20%;
     cursor: pointer;    
 }
 h7 {

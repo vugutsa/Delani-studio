@@ -1,17 +1,18 @@
 # DELANI STUDIO
 
 ## Description
-
+* Delani studio is a project whereby a user is able to fill in information and see the kind of services they offer.
 ## Authors
 * Mercy Vugutsa
 ## Set up and installation
-- Clone this repository to a location in your file system;
+- Clone this repository to a location in your file system; `https://github.com/vugutsa/Delani-studio.git`
 - Open terminal command line then navigate to the root folder of the application.` on your browser.
 - Open `index.html`on your browser.
 ## Technologies used
 * HTML
 * CSS
-* Javascript
+* Javascript and jQuery
+
 ## Contact information
 For more information or inquires feel free to contact me on my email contact;
 * vugutsamercy84@gmail.com
