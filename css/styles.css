@@ -50,14 +50,12 @@ body{
     color:white;
     height: 300px;
     text-align: center;
+    padding-top: 30px;
 }
 .contact {
     background-image: url("../images/assets/backgrounds/c_image.jpg");
     color: white;
     height: 500px;
-}
-.contact {
-  padding: 35px 70px;
 }
 h5 {
     font-weight: bold;

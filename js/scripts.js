@@ -99,7 +99,7 @@ if (name==="") {
   alert("enter message")
 }
 else {
-  alert(" Dear " + name + " we have received your message  " + " feel free to reach out to us any time. ")
+  alert(" Dear " + name + " we have received your message  " + " feel free to reach out to us any time,thank you. ")
 }
 
 
